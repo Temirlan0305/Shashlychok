@@ -1,0 +1,552 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Выгодное Люля-Кебаб Комбо",
+      "image": "https://shashlychok.kz/img/products/0a138577ff98925644802f7759323cb1.png",
+      "category": 1,
+      "text": "3 Люля-Кебаб\r\n2 Соуса\r\n2 Лаваша\r\n1 Салат \r\n1л Pepsi",
+      "price": 5550,
+      "price_container": 0
+    },
+    {
+      "id": 2,
+      "name": "Лучшие Друзья",
+      "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+      "category": 1,
+      "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+      "price": 19950,
+      "price_container": 0
+    },
+    {
+      "id": 3,
+      "name": "Сет Большая Компания",
+      "image": "https://shashlychok.kz/img/products/d0b28841c7de7011f6a26e4320296641.png",
+      "category": 1,
+      "text": "3 Баранина\r\n3 Индейка\r\n3 Говядина\r\n3 Окорочка\r\n3 Люля-кебаб\r\n7 Соус\r\n3 Лепешка\r\n4 Лаваш\r\n5 Картофель фри\r\n3 Салат\r\n3 Халапеньо\r\n3 Pepsi 1л",
+      "price": 30300,
+      "price_container": 0
+    },
+    {
+      "id": 4,
+      "name": "Фэмели Сет",
+      "image": "https://shashlychok.kz/img/products/0f3d3c946715d7d7c882180c48659649.png",
+      "category": 1,
+      "text": "Индейка 2шт\r\nОкорочка 2шт\r\nЛюля-Кебаб 2шт\r\nЛаваш 2шт\r\nЛепешка\r\nКартофель фри 2шт\r\nСалат\r\nPepsi 1л",
+      "price": 10900,
+      "price_container": 0
+    },
+    {
+      "id": 5,
+      "name": "Сет ИФТАР",
+      "image": "https://shashlychok.kz/img/products/3fd25980deec42902bc631e4d464dbbe.png",
+      "category": 1,
+      "text": "2 Люля-Кебаб\r\n2 Индейки\r\n2 Окорачки\r\n2 Салата\r\n2 Лепешки\r\n2 соуса\r\n1 Pepsi 1л\r\nВ подарок:\r\nA'SU 0,5л\r\nФиники",
+      "price": 10200,
+      "price_container": 0
+    },
+    {
+      "id": 6,
+      "name": "Шашлык из баранины",
+      "image": "https://shashlychok.kz/img/products/0b4ae49780ed012e09f5fad8a4242395.jpg",
+      "category": 2,
+      "text": "Мягкий, сочный шашлык из мяса молодого барашка. В основном филе с небольшим количеством жира, и 1 кусочек ребрышка. (200 гр в сыром виде, мариновке)",
+      "price": 1500,
+      "price_container": 0
+    },
+    {
+      "id": 7,
+      "name": "Шашлык из говядины",
+      "image": "https://shashlychok.kz/img/products/ac4841d75dc3906b46621a85d2096d35.jpg",
+      "category": 2,
+      "text": "Сочное филе говядины с добавлением 2 кусочков курдюка для сочности. (200 гр в сыром виде, мариновке)",
+      "price": 1450,
+      "price_container": 0
+    },
+    {
+      "id": 8,
+      "name": "Люля - кебаб",
+      "image": "https://shashlychok.kz/img/products/6a845552ea8f8627d8471715d91ce16c.jpg",
+      "category": 2,
+      "text": "Шашлык из смешанного фарша из баранины и говядины. Не жирный. Отлично подходят детям.",
+      "price": 1150,
+      "price_container": 0
+    },
+    {
+      "id": 9,
+      "name": "Баранина антрекот",
+      "image": "https://shashlychok.kz/img/products/5b35db2c3deaa0e4d7af78a11f40e01d.jpg",
+      "category": 2,
+      "text": "Сочная баранина",
+      "price": 1500,
+      "price_container": 0
+    },
+    {
+      "id": 10,
+      "name": "Шашлык из индейки",
+      "image": "https://shashlychok.kz/img/products/6ae30cab455d53441681fddeea41dc92.jpg",
+      "category": 2,
+      "text": "маринованное филе индейки, сочное, мягкое, диетическое. Отлично детям (200 гр в сыром виде, мариновке)",
+      "price": 1450,
+      "price_container": 0
+    },
+    {
+      "id": 11,
+      "name": "Шашлык из окорочков",
+      "image": "https://shashlychok.kz/img/products/2e26478d40a754a0cde33573badb9f3d.jpg",
+      "category": 2,
+      "text": "Мясо курицы на кости. Мягкое, отлично маринованное (250 гр в сыром виде, мариновке)",
+      "price": 1050,
+      "price_container": 0
+    },
+    {
+      "id": 12,
+      "name": "Скумбрия 1/2",
+      "image": "https://shashlychok.kz/img/products/7c6fb8517e51dedb22decf2ae3b2860b.jpg",
+      "category": 2,
+      "text": "",
+      "price": 1050,
+      "price_container": 0
+    },
+    {
+      "id": 13,
+      "name": "Наполеон",
+      "image": "https://shashlychok.kz/img/products/34913469b7ff13d0087ea734f0b82772.jpg",
+      "category": 2,
+      "text": "Мясо говядины и курдюк баранины",
+      "price": 1700,
+      "price_container": 0
+    },
+    {
+      "id": 14,
+      "name": "Овощной",
+      "image": "https://shashlychok.kz/img/products/20028273d1b9c4c82a3a6bd7881a6f17.jpg",
+      "category": 2,
+      "text": "Овощное объедение",
+      "price": 750,
+      "price_container": 0
+    },
+    {
+      "id": 15,
+      "name": "Картофель с курдюком",
+      "image": "https://shashlychok.kz/img/products/6660c51fccaafcb0629044d6b6f5e5c0.jpg",
+      "category": 2,
+      "text": "Золотистый, румяный картофель с кусочками курдюка для сочности",
+      "price": 750,
+      "price_container": 0
+    },
+    {
+      "id": 16,
+      "name": "Куриное филе",
+      "image": "https://shashlychok.kz/img/products/e785ca2027f8f79338f3e75bd97825cb.jpg",
+      "category": 2,
+      "text": "Нежное, сочное филе курицы",
+      "price": 1150,
+      "price_container": 0
+    },
+    {
+      "id": 17,
+      "name": "Рулет из говядины",
+      "image": "https://shashlychok.kz/img/products/becaa9bf37bf8a2bc091df9be56a3923.jpg",
+      "category": 2,
+      "text": "",
+      "price": 1600,
+      "price_container": 0
+    },
+    {
+      "id": 18,
+      "name": "Шампиньоны",
+      "image": "https://shashlychok.kz/img/products/803bcda210320b6b04416edae04cadc5.png",
+      "category": 2,
+      "text": "",
+      "price": 1050,
+      "price_container": 0
+    },
+    {
+      "id": 19,
+      "name": "Куриные крылышки",
+      "image": "https://shashlychok.kz/img/products/b2c0d749d4ca71947225728c8581258b.jpg",
+      "category": 2,
+      "text": "",
+      "price": 950,
+      "price_container": 0
+    },
+    {
+      "id": 20,
+      "name": "Бараньи ребрышки",
+      "image": "https://shashlychok.kz/img/products/e35967e44fcb7aa911c4786b7858d95d.png",
+      "category": 2,
+      "text": "",
+      "price": 1450,
+      "price_container": 0
+    },
+    {
+      "id": 21,
+      "name": "Пицца \"Пепперони\"",
+      "image": "https://shashlychok.kz/img/products/b4d51c8b73f593ba06fac80d9993389a.png",
+      "category": 3,
+      "text": "Фирменный соус, сыр моцарелла, колбаса",
+      "price": 2400,
+      "price_container": 0
+    },
+    {
+      "id": 22,
+      "name": "Пицца \"Фирменная\"",
+      "image": "https://shashlychok.kz/img/products/c2332fa5e98cbf90882969e9cad22cce.png",
+      "category": 3,
+      "text": "Фирменный соус, сыр моцарелла, мясной ассорти: баранина, курица, индейка, фарш",
+      "price": 2700,
+      "price_container": 0
+    },
+    {
+      "id": 23,
+      "name": "Пицца \"Маргарита\"",
+      "image": "https://shashlychok.kz/img/products/105251a40e8859ed48338804bb90d3dd.png",
+      "category": 3,
+      "text": "Фирменный соус, сыр моцарелла, помидоры",
+      "price": 2100,
+      "price_container": 0
+    },
+    {
+      "id": 24,
+      "name": "Пицца \"Курица с грибами\"",
+      "image": "https://shashlychok.kz/img/products/69e367c2093b1bb8b97fa9a07a98c916.png",
+      "category": 3,
+      "text": "Фирменный соус, сыр моцарелла, нежное филе курицы и грибы",
+      "price": 2400,
+      "price_container": 0
+    },
+    {
+      "id": 25,
+      "name": "Пицца \"Болоньезе\"",
+      "image": "https://shashlychok.kz/img/products/482c5916c39dd5e7d2f20b3005bbd96d.png",
+      "category": 3,
+      "text": "Фирменный соус, сыр моцарелла и соус болоньезе",
+      "price": 2400,
+      "price_container": 0
+    },
+    {
+      "id": 26,
+      "name": "Хачапури",
+      "image": "https://shashlychok.kz/img/products/7130083e5f2ae2b8f7757b14ad8a6296.png",
+      "category": 3,
+      "text": "",
+      "price": 2300,
+      "price_container": 0
+    },
+    {
+      "id": 27,
+      "name": "Пиде",
+      "image": "https://shashlychok.kz/img/products/838889a5849386d5f8764adc5375a09f.png",
+      "category": 3,
+      "text": "Пицца с фаршем",
+      "price": 2400,
+      "price_container": 0
+    },
+    {
+      "id": 28,
+      "name": "Pepsi 0.5L",
+      "image": "https://shashlychok.kz/img/products/6ec62539cfef359d161896daae0e09a3.png",
+      "category": 4,
+      "text": "",
+      "price": 500,
+      "price_container": 0
+    },
+    {
+      "id": 29,
+      "name": "Pepsi 1L",
+      "image": "https://shashlychok.kz/img/products/3e7d644b14fdae3101a4d609dbdaefa5.png",
+      "category": 4,
+      "text": "",
+      "price": 700,
+      "price_container": 0
+    },
+    {
+      "id": 30,
+      "name": "Asu 0.5L",
+      "image": "https://shashlychok.kz/img/products/51c207325c41215828cf8941439a196b.png",
+      "category": 4,
+      "text": "Вода без газа",
+      "price": 350,
+      "price_container": 0
+    },
+    {
+      "id": 31,
+      "name": "Asu 1L",
+      "image": "https://shashlychok.kz/img/products/334a84e0aeae315bf635e82103e5b829.png",
+      "category": 4,
+      "text": "Вода без газа",
+      "price": 500,
+      "price_container": 0
+    },
+    {
+      "id": 32,
+      "name": "Mirinda 1L",
+      "image": "https://shashlychok.kz/img/products/26acb1d2bc97e0d81aeb81800a59abe0.png",
+      "category": 4,
+      "text": "",
+      "price": 700,
+      "price_container": 0
+    },
+    {
+      "id": 33,
+      "name": "7UP 1L",
+      "image": "https://shashlychok.kz/img/products/cdb147a6a480f517bef3304a4ca02f1e.png",
+      "category": 4,
+      "text": "",
+      "price": 700,
+      "price_container": 0
+    },
+    {
+      "id": 34,
+      "name": "Mirinda 0.5L",
+      "image": "https://shashlychok.kz/img/products/8f667ba45ab32f2e85e29e2100083689.png",
+      "category": 4,
+      "text": "",
+      "price": 500,
+      "price_container": 0
+    },
+    {
+      "id": 35,
+      "name": "7UP 0.5L",
+      "image": "https://shashlychok.kz/img/products/f915708feb588cf53ebe94e5cdbbe421.png",
+      "category": 4,
+      "text": "",
+      "price": 500,
+      "price_container": 0
+    },
+    {
+      "id": 36,
+      "name": "Айран турецкий",
+      "image": "https://shashlychok.kz/img/products/e750e133e122b2732729c50a10ef9180.png",
+      "category": 4,
+      "text": "",
+      "price": 450,
+      "price_container": 0
+    },
+    {
+      "id": 37,
+      "name": "Салат \"Цезарь с курицей\"",
+      "image": "https://shashlychok.kz/img/products/8f66bab810158c2b7f236e98a8163257.png",
+      "category": 5,
+      "text": "",
+      "price": 800,
+      "price_container": 0
+    },
+    {
+      "id": 38,
+      "name": "Салат \"Ачичук\"",
+      "image": "https://shashlychok.kz/img/products/0d528af610700b19df2f574d48efaffc.png",
+      "category": 5,
+      "text": "",
+      "price": 800,
+      "price_container": 0
+    },
+    {
+      "id": 39,
+      "name": "Салат с брынзой",
+      "image": "https://shashlychok.kz/img/products/3baa939b70ad923bb6209fc3c176e1aa.png",
+      "category": 5,
+      "text": "",
+      "price": 800,
+      "price_container": 0
+    },
+    {
+      "id": 40,
+      "name": "Картофель фри",
+      "image": "https://shashlychok.kz/img/products/d883eac4a08889f2ee7d1a9eca4ff672.png",
+      "category": 6,
+      "text": "",
+      "price": 600,
+      "price_container": 0
+    },
+    {
+      "id": 41,
+      "name": "Фирменный красный соус",
+      "image": "https://shashlychok.kz/img/products/3966902f519b34413f82d2e01abe30f2.png",
+      "category": 6,
+      "text": "",
+      "price": 150,
+      "price_container": 0
+    },
+    {
+      "id": 42,
+      "name": "Фирменный белый соус",
+      "image": "https://shashlychok.kz/img/products/7a18bea2d73eff329007f5146263589f.png",
+      "category": 6,
+      "text": "",
+      "price": 150,
+      "price_container": 0
+    },
+    {
+      "id": 43,
+      "name": "Тандырная лепешка",
+      "image": "https://shashlychok.kz/img/products/7873a1f6490b35440a2fd15df7f95e91.png",
+      "category": 7,
+      "text": "",
+      "price": 300,
+      "price_container": 0
+    },
+    {
+      "id": 44,
+      "name": "Лаваш",
+      "image": "https://shashlychok.kz/img/products/41b1f320e9f22cf081a56ef783086c95.png",
+      "category": 7,
+      "text": "",
+      "price": 150,
+      "price_container": 0
+    },
+    {
+      "id": 45,
+      "name": "Халапеньо",
+      "image": "https://shashlychok.kz/img/products/8dcb78a6509a64a93a37d1e07d08e2b3.png",
+      "category": 7,
+      "text": "",
+      "price": 150,
+      "price_container": 0
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "name": "Туран Магнум",
+      "text": "Туран, 55/3 киоск",
+      "time": "11:00-01:00",
+      "address": "проспект Туран, 55/3, Астана"
+    },
+    {
+      "id": 2,
+      "name": "Астана Молл",
+      "text": "Тауелсиздик, 34 киоск",
+      "time": "Круглосуточно",
+      "address": "проспект Тауелсиздик, 34, Астана"
+    },
+    {
+      "id": 3,
+      "name": "Косшы Магнум",
+      "text": "улица Республики, 7304",
+      "time": "11:00-01:00",
+      "address": "улица Республики, 7304, Косшы, Акмолинская область"
+    },
+    {
+      "id": 4,
+      "name": "Едил Магнум",
+      "text": "Едил, 26/2",
+      "time": "11:00-01:00",
+      "address": "улица Едил, 26, Астана"
+    },
+    {
+      "id": 5,
+      "name": "Евразия",
+      "text": "Кажмукана, 8Б киоск",
+      "time": "11:00-01:00",
+      "address": "улица Кажымукана, 8Б, Астана"
+    },
+    {
+      "id": 6,
+      "name": "Алатау",
+      "text": "Ташенова, 24а",
+      "time": "11:00-01:00",
+      "address": "улица Жумабека Ташенова, 24, Астана"
+    },
+    {
+      "id": 7,
+      "name": "Жетису",
+      "text": "Сарайшык, 13Г",
+      "time": "10:00-00:00",
+      "address": "улица Сарайшык, 13Б, Астана"
+    },
+    {
+      "id": 8,
+      "name": "Жаннур",
+      "text": "Абая, 48/1а киоск",
+      "time": "11:00-01:00",
+      "address": "проспект Абая, 48, Астана"
+    },
+    {
+      "id": 9,
+      "name": "Рахмет малый",
+      "text": "Тлендиева, 15е киоск",
+      "time": "11:00-01:00",
+      "address": "проспект Нургисы Тлендиева, 15, Астана"
+    },
+    {
+      "id": 10,
+      "name": "Рахмет Большой",
+      "text": "Тлендиева 15/5",
+      "time": "11:00-01:00",
+      "address": "проспект Нургисы Тлендиева, 15, Астана"
+    },
+    {
+      "id": 11,
+      "name": "Туран Анвар",
+      "text": "Туран 45а",
+      "time": "10:00-00:00",
+      "address": "Астана, просп. Туран, 45"
+    },
+    {
+      "id": 12,
+      "name": "Талапкер Магнум",
+      "text": "Астраханское шоссе, 3/2",
+      "time": "10:00-23:00",
+      "address": "Астраханское шоссе, 3/1, село Талапкер, Целиноградский район, Акмолинская область"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Комбо",
+      "image": "https://shashlychok.kz/img/categories/67d8dda6c1c04919955b1ef2acbeabd7.png"
+    },
+    {
+      "id": 2,
+      "name": "Шашлыки",
+      "image": "https://shashlychok.kz/img/categories/f1b221177894f9c69f71b527c06c697f.png"
+    },
+    {
+      "id": 3,
+      "name": "Пиццы",
+      "image": "https://shashlychok.kz/img/categories/32a983acf36d5ac0a549767ad9e516fa.png"
+    },
+    {
+      "id": 4,
+      "name": "Напитки",
+      "image": "https://shashlychok.kz/img/categories/af115c83a46a7317127f05ad21d1f839.png"
+    },
+    {
+      "id": 5,
+      "name": "Салаты",
+      "image": "https://shashlychok.kz/img/categories/0fe7a5deb5094df258ea278d73ac9e11.png"
+    },
+    {
+      "id": 6,
+      "name": "Соусы и гарниры",
+      "image": "https://shashlychok.kz/img/categories/e715aa6f593b972be1b2cb9494fea69e.png"
+    },
+    {
+      "id": 7,
+      "name": "Дополнительно",
+      "image": "https://shashlychok.kz/img/categories/b577d11839ed0f1ff7c3a8f3561fc0c6.png"
+    }
+  ],
+  "sliders": [
+    {
+      "id": 1,
+      "image": "https://shashlychok.kz/img/slides/354890c22db52d15720b40fed08b5b8c.png"
+    },
+    {
+      "id": 2,
+      "image": "https://shashlychok.kz/img/slides/9e9c9bf0d0412c47cafc82e97e00791f.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
