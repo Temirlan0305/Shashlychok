@@ -1,7 +1,15 @@
 import React from 'react';
 import { IProduct } from '../../models/IProduct';
+import { setOpenModal } from '../../redux/slices/modal';
+import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
 
 const Product: React.FC<IProduct> = ({ id, name, image, text, price }) => {
+   const { isModal } = useAppSelector(state => state.modal);
+   const dispatch = useAppDispatch();
+   const onOpenModal = () => {
+      dispatch(setOpenModal({ id, name, image, text, price, isModal: !isModal }))
+      document.body.style.overflow = 'hidden'
+   }
    return (
       <div className="product__column" data-fancybox={id} data-src="#popup26">
          <div className="product__item">
@@ -17,9 +25,9 @@ const Product: React.FC<IProduct> = ({ id, name, image, text, price }) => {
                </div>
                <div className="product__bottom">
                   <div className="product__price">
-                     {price} тг
+                     {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} тг
                   </div>
-                  <a href="javascript:;" className="product__button">В корзину</a>
+                  <button className="product__button" onClick={() => onOpenModal()}>Подробнее</button>
                </div>
             </div>
          </div>

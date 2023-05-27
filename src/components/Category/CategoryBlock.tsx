@@ -1,15 +1,24 @@
 import React from 'react';
 import { ICategory } from '../../models/ICategory';
 import { useAppSelector, useAppDispatch } from '../../hooks/hooks';
-import { setCategory } from '../../redux/slices/category';
+import { setCategoryId, setCategoryName, setSearchValue, setSearchValueCopy } from '../../redux/slices/filter';
 
 const CategoryBlock: React.FC<ICategory> = ({ id, name, image }) => {
-   const { categoryId } = useAppSelector(state => state.category);
+   const { categoryId } = useAppSelector(state => state.filter);
    const categoryActive = categoryId === id ? 'active' : '';
    const dispatch = useAppDispatch()
+   const onClickCategory = () => {
+      dispatch(setCategoryId(id))
+      dispatch(setCategoryName(name))
+      dispatch(setSearchValue(''))
+      dispatch(setSearchValueCopy(''))
+   }
+   React.useEffect(() => {
+      dispatch(setCategoryName(name))
+   }, [])
    return (
       <>
-         <div onClick={() => dispatch(setCategory(id))} className={`section_product-button tabs-btn swiper-slide ${categoryActive}`}>
+         <div onClick={() => onClickCategory()} className={`section_product-button tabs-btn ${categoryActive}`}>
             <img src={image} />
             <span>{name}</span>
          </div>
