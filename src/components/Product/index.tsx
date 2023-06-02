@@ -1,13 +1,15 @@
 import React from 'react';
 import { IProduct } from '../../models/IProduct';
-import { setOpenModal } from '../../redux/slices/modal';
+import { setModalProduct } from '../../redux/slices/productSlice';
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { setOpenProductModal } from '../../redux/slices/modalSlice';
 
-const Product: React.FC<IProduct> = ({ id, name, image, text, price }) => {
-   const { isModal } = useAppSelector(state => state.modal);
+const Product: React.FC<IProduct> = ({ id, name, image, text, price, price_container }) => {
+   const { productModal } = useAppSelector(state => state.modal)
    const dispatch = useAppDispatch();
    const onOpenModal = () => {
-      dispatch(setOpenModal({ id, name, image, text, price, isModal: !isModal }))
+      dispatch(setModalProduct({ id, name, image, text, price, price_container }));
+      dispatch(setOpenProductModal(!productModal))
       document.body.style.overflow = 'hidden'
    }
    return (

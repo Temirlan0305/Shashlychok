@@ -1139,12 +1139,10 @@ p {
 
 .popup_status__container {
   /* padding: 30px; */
-  width: 600px !important;
-  height: 200px !important;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 20px 10px;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
@@ -2094,6 +2092,10 @@ p {
   border-radius: 10px;
 }
 
+.basket-form__block label span {
+  color: red;
+}
+
 @media (max-width: 1590px) {
   .container {
     max-width: 1400px;
@@ -2619,10 +2621,6 @@ p {
   .popup_status__button {
     font-size: 14px;
     width: 180px;
-  }
-
-  .popup_status__container {
-    width: 500px !important;
   }
 
   .menu__burger {
@@ -3301,12 +3299,6 @@ p {
     width: 180px;
     border-radius: 15px;
   }
-
-  .popup_status__container {
-    max-width: 500px !important;
-    width: 100% !important;
-  }
-
   .swiper-button-next3,
   .swiper-button-prev3 {
     width: 30px;
@@ -3592,10 +3584,6 @@ p {
   .basket__link svg {
     width: 15px;
     height: 15px;
-  }
-
-  .popup_status__container {
-    padding: 30px 20px;
   }
 
   .popup_status__title {

@@ -1,8 +1,6 @@
-export interface IModal { 
-   isModal: boolean,
-   id: number,
-   name: string,
-   text: string,
-   image: string,
-   price: number,
+export interface IModal {
+   productModal: boolean,
+   orderModal: boolean,
+   dostavkaModal: boolean,
+   samovyvozModal: boolean
 }

@@ -7,7 +7,7 @@
       "category": 1,
       "text": "3 Люля-Кебаб\r\n2 Соуса\r\n2 Лаваша\r\n1 Салат \r\n1л Pepsi",
       "price": 5550,
-      "price_container": 0
+      "price_container": 300
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "category": 1,
       "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
       "price": 19950,
-      "price_container": 0
+      "price_container": 300
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "category": 1,
       "text": "3 Баранина\r\n3 Индейка\r\n3 Говядина\r\n3 Окорочка\r\n3 Люля-кебаб\r\n7 Соус\r\n3 Лепешка\r\n4 Лаваш\r\n5 Картофель фри\r\n3 Салат\r\n3 Халапеньо\r\n3 Pepsi 1л",
       "price": 30300,
-      "price_container": 0
+      "price_container": 300
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "category": 1,
       "text": "Индейка 2шт\r\nОкорочка 2шт\r\nЛюля-Кебаб 2шт\r\nЛаваш 2шт\r\nЛепешка\r\nКартофель фри 2шт\r\nСалат\r\nPepsi 1л",
       "price": 10900,
-      "price_container": 0
+      "price_container": 300
     },
     {
       "id": 5,

@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 
 
-const Contacts: React.FC = () => {
+const Contacts: FC = () => {
    return (
       <>
          <div className="contacts mg-top">
@@ -11,8 +11,8 @@ const Contacts: React.FC = () => {
                      <div className="contacts__title">Контакты</div>
                   </div>
                   <div className="contacts__right">
-                     
-                  </div>   
+
+                  </div>
                </div>
             </div>
          </div>

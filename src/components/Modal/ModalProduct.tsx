@@ -1,11 +1,35 @@
-import React, { Children } from 'react'
+import { FC } from 'react'
 import Modal from '.';
-import { useAppSelector } from '../../hooks/hooks';
+import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { setAddProduct, setMinusProduct, setPlusProduct } from '../../redux/slices/basketSlice';
+import { IProductBasket } from '../../models/IBasketState';
 
-const ModalProduct: React.FC = () => {
-   const { id, name, image, text, price } = useAppSelector(state => state.modal)
+const ModalProduct: FC = () => {
+   const { id, name, image, text, price, price_container } = useAppSelector(state => state.product)
+   const { items } = useAppSelector(state => state.basket);
+   const { productModal } = useAppSelector(state => state.modal)
+   const isProduct = items.find((obj) => obj.id === id)
+   const dispatch = useAppDispatch();
+   const onAddProduct = () => {
+      const productObj: IProductBasket = {
+         id,
+         name,
+         image,
+         text,
+         price,
+         price_container,
+         count: 1,
+      }
+      dispatch(setAddProduct(productObj))
+   }
+   const onPlusCount = () => {
+      dispatch(setPlusProduct(id));
+   }
+   const onMinusCount = () => {
+      dispatch(setMinusProduct(id));
+   }
    return (
-      <Modal>
+      <Modal isModal={productModal}>
          <div className="product-fancy js-product">
             <div className="product-fancy__image">
                <img src={image} alt="" />
@@ -28,9 +52,17 @@ const ModalProduct: React.FC = () => {
                   <div className="product-fancy__price">
                      {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} ₸
                   </div>
-                  <a className="product-fancy__button basket__btn buy__product buy-product js-buy">
-                     Добавить в корзину
-                  </a>
+                  {
+                     !isProduct ? (
+                        <button className="product-fancy__button basket__btn buy__product buy-product js-buy" onClick={() => onAddProduct()}>
+                           Добавить в корзину
+                        </button>
+                     ) : <div className="shoppingcard__item-amount">
+                        <button className="minus js-minus" onClick={() => onMinusCount()}>-</button>
+                        <p className="quantity shoppingcard__nums js-cart-item-quantity">{isProduct.count}</p>
+                        <button className="plus js-plus" onClick={() => onPlusCount()}>+</button>
+                     </div>
+                  }
                </div>
             </div>
          </div>

@@ -1,14 +1,17 @@
-import React from 'react';
+import { FC, ReactNode } from 'react';
 import './modal.scss'
-import { setCloseModal } from '../../redux/slices/modal';
-import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { setCloseModal } from '../../redux/slices/modalSlice';
+import { useAppDispatch } from '../../hooks/hooks';
 
+type ModalProps = {
+   children: ReactNode,
+   isModal: boolean,
+}
 
-const Modal: React.FC<any> = ({ children }) => {
-   const { isModal } = useAppSelector(state => state.modal);
+const Modal: FC<ModalProps> = ({ isModal, children }) => {
    const dispatch = useAppDispatch();
    const onClickModal = () => {
-      dispatch(setCloseModal(!isModal))
+      dispatch(setCloseModal())
       document.body.style.overflow = 'auto'
    }
 

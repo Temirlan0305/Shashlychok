@@ -1,10 +1,11 @@
-import React from 'react';
+import { FC } from 'react';
 import MenuBlock from '../../components/MenuBlock';
 import Category from '../../components/Category';
 import Sliders from '../../components/Sliders';
 import ModalProduct from '../../components/Modal/ModalProduct'
+import ModalOrderType from '../../components/Modal/ModalOrderType'
 
-const Home: React.FC = () => {
+const Home: FC = () => {
    return (
       <>
          <div className="main mg-top">
@@ -24,7 +25,8 @@ const Home: React.FC = () => {
                </div>
             </div>
          </div>
-         <ModalProduct/>
+         <ModalProduct />
+         <ModalOrderType />
       </>
    )
 }

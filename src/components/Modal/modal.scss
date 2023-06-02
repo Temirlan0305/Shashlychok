@@ -23,21 +23,22 @@
   border-radius: 12px;
   transform: scale(0);
   transition: all 0.5s;
-  width: 50vw;
+  max-width: 50vw;
+  width: auto;
   @media (max-width: 1590.98px) {
-    width: 60vw;
+    max-width: 60vw;
   }
   @media (max-width: 1199.98px) {
-    width: 80vw;
+    max-width: 80vw;
   }
   @media (max-width: 850.98px) {
-    width: 90vw;
+    max-width: 90vw;
   }
   @media (max-width: 768.98px) {
-    width: 75vw;
+    max-width: 75vw;
   }
   @media (max-width: 575.98px) {
-    width: 85vw;
+    max-width: 85vw;
     padding: 15px;
   }
 }

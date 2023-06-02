@@ -1,4 +1,4 @@
-import React from 'react';
+import { FC } from 'react';
 import './scss/style.scss'
 import { Routes, Route } from 'react-router-dom';
 import MenuLayout from './components/layouts/MenuLayout';
@@ -8,7 +8,7 @@ import Basket from './pages/Basket';
 import NoteFound from './pages/NoteFound'
 
 
-const App: React.FC = () => {
+const App: FC = () => {
   return (
     <Routes>
       <Route path='/' element={<MenuLayout />}>

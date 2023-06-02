@@ -1,7 +1,7 @@
 import React from 'react';
 import { ICategory } from '../../models/ICategory';
 import { useAppSelector, useAppDispatch } from '../../hooks/hooks';
-import { setCategoryId, setCategoryName, setSearchValue, setSearchValueCopy } from '../../redux/slices/filter';
+import { setCategoryId, setCategoryName, setSearchValue, setSearchValueCopy } from '../../redux/slices/filterSlice';
 
 const CategoryBlock: React.FC<ICategory> = ({ id, name, image }) => {
    const { categoryId } = useAppSelector(state => state.filter);
