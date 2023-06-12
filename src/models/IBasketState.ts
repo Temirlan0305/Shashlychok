@@ -13,4 +13,6 @@ export interface IBasketState {
    totalPrice: number,
    totalContainerPrice: number,
    totalProductPrice: number,
+   dostavkaPrice: number,
+   promo: number,
 }

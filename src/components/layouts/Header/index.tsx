@@ -4,8 +4,18 @@ import insta from '../../../assets/img/insta.svg'
 import facebook from '../../../assets/img/facebook.svg'
 import whatsapp from '../../../assets/img/whatsapp.svg'
 import { Link } from 'react-router-dom';
+import { useAppDispatch, useAppSelector } from '../../../hooks/hooks';
+import { setOpenTypeModal } from '../../../redux/slices/modalSlice';
+
 
 const Header: React.FC = () => {
+   const { addressName, orderTypeId } = useAppSelector(state => state.order);
+   const { totalCount } = useAppSelector(state => state.basket);
+   const dispatch = useAppDispatch();
+   const onChangeAddress = () => {
+      dispatch(setOpenTypeModal(orderTypeId))
+      document.body.style.overflow = 'hidden';
+   }
    return (
       <header className="header">
          <div className="header__container container">
@@ -24,15 +34,15 @@ const Header: React.FC = () => {
                         </ul>
                      </nav>
                      <div className="header__left">
-                        <div className="header__address" data-fancybox="" data-src="#popup_address">
+                        <div className="header__address" data-fancybox="" data-src="#popup_address" onClick={onChangeAddress}>
                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                               <path d="M0 0h24v24H0z" fill="none"></path>
                               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z">
                               </path>
                            </svg>
-                           <span>Косшы Магнум</span>
+                           <span>{addressName}</span>
                         </div>
-                        <Link to="/basket" className="basket-view count__busket">
+                        <Link to="/basket" className={totalCount > 0 ? 'basket-view count__busket active' : 'basket-view count__busket'}>
                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M10.2029 12.2222V4.81482C10.2029 2.96297 11.9302 1.11111 15.0009 1.11111C17.8797 1.11111 19.7988 2.5926 19.7988 4.81482V12.2222M25.5564 9.90741V27.5C25.5564 28.2671 24.9346 28.8889 24.1675 28.8889H5.8342C5.06714 28.8889 4.44531 28.2671 4.44531 27.5V9.90741C4.44531 9.14035 5.06714 8.51852 5.8342 8.51852H24.1675C24.9346 8.51852 25.5564 9.14035 25.5564 9.90741Z" stroke="#1B1918" strokeWidth="2.22222" strokeLinecap="round" strokeLinejoin="round"></path>
                            </svg>

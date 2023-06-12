@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { productApi } from '../../redux/services/productApi';
 import { useAppSelector } from '../../hooks/hooks';
 import Product from '../Product';
@@ -6,10 +6,13 @@ import ProductLoader from '../Product/ProductLoader';
 import MenuTitleLoader from './MenuTitleLoader';
 
 const MenuBlock: React.FC = () => {
-   const { categoryId, searchValue, categoryName } = useAppSelector(state => state.filter)
+   const { categoryId, searchValue, categoryName } = useAppSelector(state => state.filter);
+   const { addressId } = useAppSelector(state => state.order)
 
    const searchParams = searchValue ? `&q=${searchValue}` : ''
    const { data: productData, error: productError, isLoading: productsIsLoading } = productApi.useFetchAllProductsQuery({ categoryId, searchParams });
+   // console.log(productData)
+   // const productFilterData = useMemo(() => productData && productData.filter((obj) => obj.city_id.includes(addressId)), [addressId])
    const productSkeleton = [...new Array(8)].map((_, index) => <ProductLoader key={index} />)
    const productBlock = productData && productData.map((item) => <Product {...item} key={item.id} />)
    const productTitle = searchValue ? `Поиск по: "${searchValue}"` : categoryName;

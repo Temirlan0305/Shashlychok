@@ -3,6 +3,9 @@ import {IProduct} from '../../models/IProduct'
 import {ICategory} from '../../models/ICategory'
 import {ISliders} from '../../models/ISliders'
 import { IFilterApi } from '../../models/IFilterApi';
+import { IAddress } from '../../models/IAddress';
+import { IPromo } from '../../models/IPromo';
+import { IOrderObj } from '../../models/IOrderObj';
 
 
 export const productApi = createApi({
@@ -24,5 +27,22 @@ export const productApi = createApi({
             url: '/sliders'
          })
       }),
+      fetchAllAddress: builder.query<IAddress[], string>({
+         query: () => ({
+            url: '/address'
+         })
+      }),
+      fetchAllPromo: builder.query<IPromo[], string>({
+         query: (promo) => ({
+            url: `/promo?name=${promo}`,
+         })
+      }),
+      orderingProduct: builder.mutation<IOrderObj, IOrderObj>({
+         query: (post) => ({
+            url: '/order',
+            method: 'POST',
+            body: post         
+         })
+      })
    }),
 })

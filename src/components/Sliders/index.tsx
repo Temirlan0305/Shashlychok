@@ -9,7 +9,7 @@ import 'swiper/css/autoplay'
 
 
 
-const SwiperSlider = () => {
+const Sliders = () => {
    const { data, error, isLoading } = productApi.useFetchAllSlidersQuery('')
    SwiperCore.use([Autoplay]);
    SwiperCore.use([Navigation]);
@@ -85,4 +85,4 @@ const SwiperSlider = () => {
 }
 
 
-export default SwiperSlider;
+export default Sliders;

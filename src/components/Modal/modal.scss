@@ -18,6 +18,8 @@
   pointer-events: all;
 }
 .modal-content {
+  max-height: 100%;
+  height: auto;
   padding: 30px;
   background-color: #fff;
   border-radius: 12px;

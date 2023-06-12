@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import-normalize;
 @font-face {
   font-family: 'Bebas Neue';
   src: local('Bebas Neue Bold'), local('Bebas-Neue-Bold'),
@@ -718,10 +718,6 @@ p {
 .tabs__row:not(:last-child) {
   margin-bottom: 20px;
 }
-/* 
-.tabs__row.active {
-    display: block;
-} */
 
 .product__flash {
   position: absolute;
@@ -889,10 +885,6 @@ p {
   position: relative;
 }
 
-.popup-button__none .fancybox-close-small {
-  display: none !important;
-}
-
 .product-fancy {
   display: flex;
   background: #fff;
@@ -907,9 +899,15 @@ p {
   justify-content: center;
   padding: 10px;
 }
-
+.popup-dostavka_map {
+  position: relative;
+  margin-top: 25px;
+  height: 350px;
+  width: 100%;
+}
 .product-fancy__image img {
   width: 100%;
+  min-width: 250px;
   height: 100%;
   border-radius: 30px 0 0 30px;
   overflow: hidden;
@@ -1183,16 +1181,15 @@ p {
 }
 
 .popup_address__container {
-  min-height: 400px !important;
-  width: 900px !important;
+  width: 100%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 40px;
   border-radius: 30px;
 }
 
 .popup_address__block {
+  width: 1;
   display: flex;
   margin: 0 -10px;
   flex-wrap: wrap;
@@ -1495,14 +1492,6 @@ p {
 .basket_right__button.active {
   background-color: #fff;
   width: 100%;
-}
-
-.tabs__row-two {
-  display: none;
-  width: 100%;
-}
-.tabs__row-two.active {
-  display: flex;
 }
 .basket__footer-container {
   width: 100%;
@@ -1846,6 +1835,9 @@ p {
 .form_loader_text {
   font-size: 20px;
   text-align: center;
+}
+.popup.form_loader.active {
+  display: block;
 }
 
 .empty.active {
@@ -2767,10 +2759,6 @@ p {
     margin-bottom: 20px;
   }
 
-  .popup_address__container {
-    width: 700px !important;
-  }
-
   .popup_address__column {
     flex: 0 1 33.333%;
   }
@@ -3033,10 +3021,6 @@ p {
     width: 50%;
   }
 
-  .popup_address__container {
-    padding: 40px 30px;
-  }
-
   .popup_status__title {
     font-size: 22px;
   }
@@ -3076,11 +3060,6 @@ p {
 
   .footer__list li:not(:last-child) {
     margin-right: 10px;
-  }
-
-  .popup_address__container {
-    max-width: 700px !important;
-    width: 100% !important;
   }
 
   .popup_status__button {
@@ -3399,10 +3378,6 @@ p {
   .footer__list li:not(:last-child) {
     margin-bottom: 0;
     margin-right: 5px;
-  }
-
-  .popup_address__container {
-    padding: 20px;
   }
 
   .popup_address__item {
@@ -3765,6 +3740,9 @@ p {
 .alert--title {
   /* font-size: 28px;
     font-weight: 500; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .alert--title .mess {

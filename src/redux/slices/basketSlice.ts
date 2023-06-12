@@ -1,6 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {IBasketState} from "../../models/IBasketState"
-import {IProduct} from "../../models/IProduct"
 import {IProductBasket} from "../../models/IBasketState";
 
 
@@ -11,6 +10,8 @@ const initialState: IBasketState = {
    totalPrice: 0,
    totalProductPrice: 0,
    totalContainerPrice: 0,
+   dostavkaPrice: 0,
+   promo: 0,
 }
 
 const basketSlice = createSlice({
@@ -37,6 +38,15 @@ const basketSlice = createSlice({
             state.totalPrice = state.items.reduce((sum, obj) => {
                return sum + (obj.price * obj.count) + (obj.price_container * obj.count)
             }, 0)
+            if (state.totalPrice < 10000) {
+               state.dostavkaPrice = 1500
+            } else {
+               state.dostavkaPrice = 0
+            }
+            state.totalPrice = state.totalPrice + state.dostavkaPrice
+            if (state.promo > 0) {
+               state.totalPrice = state.totalPrice - (state.totalPrice * state.promo/100)
+            }
          }
 
       },
@@ -57,6 +67,15 @@ const basketSlice = createSlice({
          state.totalPrice = state.items.reduce((sum, obj) => {
             return sum + (obj.price * obj.count) + (obj.price_container * obj.count)
          }, 0)
+         if (state.totalPrice < 10000) {
+            state.dostavkaPrice = 1500
+         } else {
+            state.dostavkaPrice = 0
+         }
+         state.totalPrice = state.totalPrice + state.dostavkaPrice;
+         if (state.promo > 0) {
+            state.totalPrice = state.totalPrice - (state.totalPrice * state.promo/100)
+         }
       },
       setMinusProduct: (state, action: PayloadAction<number>) => {
          const selectProduct = state.items.find((obj) => obj.id === action.payload)
@@ -77,6 +96,15 @@ const basketSlice = createSlice({
          state.totalPrice = state.items.reduce((sum, obj) => {
             return sum + (obj.price * obj.count) + (obj.price_container * obj.count)
          }, 0)
+         if (state.totalPrice < 10000) {
+            state.dostavkaPrice = 1500
+         } else {
+            state.dostavkaPrice = 0
+         }
+         state.totalPrice = state.totalPrice + state.dostavkaPrice;
+         if (state.promo > 0) {
+            state.totalPrice = state.totalPrice - (state.totalPrice * state.promo/100)
+         }
       },
       setDeleteProduct: (state, action: PayloadAction<number>) => {
          state.items = state.items.filter((obj) => obj.id !== action.payload)
@@ -92,14 +120,50 @@ const basketSlice = createSlice({
          state.totalPrice = state.items.reduce((sum, obj) => {
             return sum + (obj.price * obj.count) + (obj.price_container * obj.count)
          }, 0)
+         if (state.totalPrice < 10000) {
+            state.dostavkaPrice = 1500
+         } else {
+            state.dostavkaPrice = 0
+         }
+         state.totalPrice = state.totalPrice + state.dostavkaPrice;
+         if (state.promo > 0) {
+            state.totalPrice = state.totalPrice - (state.totalPrice * state.promo/100)
+         }
       },
+      setDostavkaPrice: (state) => {
+         if (state.totalPrice < 10000) {
+            state.dostavkaPrice = 1500
+         } else {
+            state.dostavkaPrice = 0
+         }
+         state.totalPrice = state.totalPrice + state.dostavkaPrice;
+      },
+      setPromoPrice: (state, action: PayloadAction<number>) => {
+         state.promo = action.payload
+         state.totalPrice = state.items.reduce((sum, obj) => {
+            return sum + (obj.price * obj.count) + (obj.price_container * obj.count)
+         }, 0)
+         if (state.promo > 0) {
+            state.totalPrice = state.totalPrice - (state.totalPrice * state.promo/100)
+         }
+      }, 
       setClearItems: (state) => {
          state.items = [];
          state.totalCount = 0;
          state.totalProductPrice = 0;
+         state.dostavkaPrice = 0;
+         state.promo = 0;
       }
    }
 })
 
-export const {setAddProduct, setPlusProduct, setMinusProduct, setDeleteProduct} = basketSlice.actions;
+export const {
+   setAddProduct,
+   setPromoPrice,
+   setPlusProduct,
+   setMinusProduct,
+   setDeleteProduct,
+   setDostavkaPrice,
+   setClearItems
+} = basketSlice.actions;
 export default basketSlice.reducer;

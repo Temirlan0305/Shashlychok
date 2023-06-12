@@ -1,9 +1,9 @@
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
 import Modal from './index';
 import { setOrderTypeId } from '../../redux/slices/orderSlice';
-import { setOpenOrderModal, setCloseOrderModal } from '../../redux/slices/modalSlice';
-
+import { setCloseOrderModal, setOpenTypeModal } from '../../redux/slices/modalSlice';
+import { setDostavkaPrice } from '../../redux/slices/basketSlice';
 
 const ModalOrderType: FC = () => {
    const { orderTypes } = useAppSelector(state => state.order);
@@ -11,11 +11,11 @@ const ModalOrderType: FC = () => {
    const dispatch = useAppDispatch();
    const onСhooseOrderType = (id: number) => {
       dispatch(setOrderTypeId(id));
+      document.body.style.overflow = 'hidden'
       dispatch(setCloseOrderModal());
+      dispatch(setOpenTypeModal(id))
+      dispatch(setDostavkaPrice())
    }
-   useEffect(() => {
-      dispatch(setOpenOrderModal(!orderModal))
-   }, [])
 
    return (
       <Modal isModal={orderModal}>

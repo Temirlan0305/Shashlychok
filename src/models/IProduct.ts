@@ -6,4 +6,5 @@ export interface IProduct {
    text: string,
    price: number,
    price_container: number,
+   city_id: number[]
 }

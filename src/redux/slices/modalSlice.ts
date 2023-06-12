@@ -24,7 +24,7 @@ const ModalSlice = createSlice({
          if (action.payload === 0) {
             state.samovyvozModal = true
          } else {
-            state.dostavkaModal = true
+            state.samovyvozModal = true
          }
       },
       setCloseOrderModal: (state) => {

@@ -1,13 +1,14 @@
 import { FC } from 'react';
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
 import Modal from './index';
-import OrderAddress from '../OrderAddress/index'
+import OrderAddress from '../OrderAddress/index';
+import { productApi } from '../../redux/services/productApi';
 
 
 
 const ModalOrderType: FC = () => {
    const { samovyvozModal } = useAppSelector(state => state.modal);
-   const dispatch = useAppDispatch();
+   const { data, error, isLoading } = productApi.useFetchAllAddressQuery('')
 
    return (
       <Modal isModal={samovyvozModal}>
@@ -16,7 +17,7 @@ const ModalOrderType: FC = () => {
                Выберите филиал
             </div>
             <div className="popup_address__block">
-               <OrderAddress />
+               {data && data.map((obj) => <OrderAddress {...obj} key={obj.id} />)}
             </div>
          </div>
       </Modal>

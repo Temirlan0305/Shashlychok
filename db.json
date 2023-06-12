@@ -7,7 +7,21 @@
       "category": 1,
       "text": "3 Люля-Кебаб\r\n2 Соуса\r\n2 Лаваша\r\n1 Салат \r\n1л Pepsi",
       "price": 5550,
-      "price_container": 300
+      "price_container": 300,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 2,
@@ -16,7 +30,21 @@
       "category": 1,
       "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
       "price": 19950,
-      "price_container": 300
+      "price_container": 300,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 3,
@@ -25,7 +53,21 @@
       "category": 1,
       "text": "3 Баранина\r\n3 Индейка\r\n3 Говядина\r\n3 Окорочка\r\n3 Люля-кебаб\r\n7 Соус\r\n3 Лепешка\r\n4 Лаваш\r\n5 Картофель фри\r\n3 Салат\r\n3 Халапеньо\r\n3 Pepsi 1л",
       "price": 30300,
-      "price_container": 300
+      "price_container": 300,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 4,
@@ -34,7 +76,21 @@
       "category": 1,
       "text": "Индейка 2шт\r\nОкорочка 2шт\r\nЛюля-Кебаб 2шт\r\nЛаваш 2шт\r\nЛепешка\r\nКартофель фри 2шт\r\nСалат\r\nPepsi 1л",
       "price": 10900,
-      "price_container": 300
+      "price_container": 300,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 5,
@@ -43,7 +99,21 @@
       "category": 1,
       "text": "2 Люля-Кебаб\r\n2 Индейки\r\n2 Окорачки\r\n2 Салата\r\n2 Лепешки\r\n2 соуса\r\n1 Pepsi 1л\r\nВ подарок:\r\nA'SU 0,5л\r\nФиники",
       "price": 10200,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 6,
@@ -52,7 +122,21 @@
       "category": 2,
       "text": "Мягкий, сочный шашлык из мяса молодого барашка. В основном филе с небольшим количеством жира, и 1 кусочек ребрышка. (200 гр в сыром виде, мариновке)",
       "price": 1500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 7,
@@ -61,7 +145,21 @@
       "category": 2,
       "text": "Сочное филе говядины с добавлением 2 кусочков курдюка для сочности. (200 гр в сыром виде, мариновке)",
       "price": 1450,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 8,
@@ -70,7 +168,21 @@
       "category": 2,
       "text": "Шашлык из смешанного фарша из баранины и говядины. Не жирный. Отлично подходят детям.",
       "price": 1150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 9,
@@ -79,7 +191,21 @@
       "category": 2,
       "text": "Сочная баранина",
       "price": 1500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 10,
@@ -88,7 +214,21 @@
       "category": 2,
       "text": "маринованное филе индейки, сочное, мягкое, диетическое. Отлично детям (200 гр в сыром виде, мариновке)",
       "price": 1450,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 11,
@@ -97,7 +237,21 @@
       "category": 2,
       "text": "Мясо курицы на кости. Мягкое, отлично маринованное (250 гр в сыром виде, мариновке)",
       "price": 1050,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 12,
@@ -106,7 +260,21 @@
       "category": 2,
       "text": "",
       "price": 1050,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 13,
@@ -115,7 +283,21 @@
       "category": 2,
       "text": "Мясо говядины и курдюк баранины",
       "price": 1700,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 14,
@@ -124,7 +306,21 @@
       "category": 2,
       "text": "Овощное объедение",
       "price": 750,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 15,
@@ -133,7 +329,21 @@
       "category": 2,
       "text": "Золотистый, румяный картофель с кусочками курдюка для сочности",
       "price": 750,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 16,
@@ -142,7 +352,21 @@
       "category": 2,
       "text": "Нежное, сочное филе курицы",
       "price": 1150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 17,
@@ -151,7 +375,21 @@
       "category": 2,
       "text": "",
       "price": 1600,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 18,
@@ -160,7 +398,21 @@
       "category": 2,
       "text": "",
       "price": 1050,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 19,
@@ -169,7 +421,21 @@
       "category": 2,
       "text": "",
       "price": 950,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 20,
@@ -178,7 +444,21 @@
       "category": 2,
       "text": "",
       "price": 1450,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 21,
@@ -187,7 +467,21 @@
       "category": 3,
       "text": "Фирменный соус, сыр моцарелла, колбаса",
       "price": 2400,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 22,
@@ -196,7 +490,21 @@
       "category": 3,
       "text": "Фирменный соус, сыр моцарелла, мясной ассорти: баранина, курица, индейка, фарш",
       "price": 2700,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 23,
@@ -205,7 +513,21 @@
       "category": 3,
       "text": "Фирменный соус, сыр моцарелла, помидоры",
       "price": 2100,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 24,
@@ -214,7 +536,21 @@
       "category": 3,
       "text": "Фирменный соус, сыр моцарелла, нежное филе курицы и грибы",
       "price": 2400,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 25,
@@ -223,7 +559,21 @@
       "category": 3,
       "text": "Фирменный соус, сыр моцарелла и соус болоньезе",
       "price": 2400,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 26,
@@ -232,7 +582,21 @@
       "category": 3,
       "text": "",
       "price": 2300,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 27,
@@ -241,7 +605,21 @@
       "category": 3,
       "text": "Пицца с фаршем",
       "price": 2400,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 28,
@@ -250,7 +628,21 @@
       "category": 4,
       "text": "",
       "price": 500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 29,
@@ -259,7 +651,21 @@
       "category": 4,
       "text": "",
       "price": 700,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 30,
@@ -268,7 +674,21 @@
       "category": 4,
       "text": "Вода без газа",
       "price": 350,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 31,
@@ -277,7 +697,21 @@
       "category": 4,
       "text": "Вода без газа",
       "price": 500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 32,
@@ -286,7 +720,21 @@
       "category": 4,
       "text": "",
       "price": 700,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 33,
@@ -295,7 +743,21 @@
       "category": 4,
       "text": "",
       "price": 700,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 34,
@@ -304,7 +766,21 @@
       "category": 4,
       "text": "",
       "price": 500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 35,
@@ -313,7 +789,21 @@
       "category": 4,
       "text": "",
       "price": 500,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 36,
@@ -322,7 +812,21 @@
       "category": 4,
       "text": "",
       "price": 450,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 37,
@@ -331,7 +835,21 @@
       "category": 5,
       "text": "",
       "price": 800,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 38,
@@ -340,7 +858,21 @@
       "category": 5,
       "text": "",
       "price": 800,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 39,
@@ -349,7 +881,21 @@
       "category": 5,
       "text": "",
       "price": 800,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 40,
@@ -358,7 +904,21 @@
       "category": 6,
       "text": "",
       "price": 600,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 41,
@@ -367,7 +927,21 @@
       "category": 6,
       "text": "",
       "price": 150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 42,
@@ -376,7 +950,21 @@
       "category": 6,
       "text": "",
       "price": 150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 43,
@@ -385,7 +973,21 @@
       "category": 7,
       "text": "",
       "price": 300,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 44,
@@ -394,7 +996,21 @@
       "category": 7,
       "text": "",
       "price": 150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": 45,
@@ -403,7 +1019,21 @@
       "category": 7,
       "text": "",
       "price": 150,
-      "price_container": 0
+      "price_container": 0,
+      "city_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     }
   ],
   "address": [
@@ -541,6 +1171,249 @@
     {
       "id": 3,
       "image": "https://shashlychok.kz/img/slides/d304af3c68ae1935d34b94eee611ab13.png"
+    }
+  ],
+  "order": [
+    {
+      "orderType": "Доставка",
+      "totalCount": 1,
+      "totalPrice": 14175,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "чваплдьиьт вчаджли",
+      "address": "кшкаракудцльа",
+      "comments": "",
+      "tel": "+7777-777-77-77",
+      "id": 1
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 14175,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "budget",
+      "comments": "",
+      "tel": "+8777-783-94-75",
+      "id": 2
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 14175,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "budget",
+      "comments": "",
+      "tel": "+7777-777-77-__",
+      "id": 3
+    },
+    {
+      "orderType": "Доставка",
+      "totalCount": 1,
+      "totalPrice": 5850,
+      "totalProductPrice": 5550,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 1,
+          "name": "Выгодное Люля-Кебаб Комбо",
+          "image": "https://shashlychok.kz/img/products/0a138577ff98925644802f7759323cb1.png",
+          "text": "3 Люля-Кебаб\r\n2 Соуса\r\n2 Лаваша\r\n1 Салат \r\n1л Pepsi",
+          "price": 5550,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "0%",
+      "name": "Бакытгуль Болат",
+      "address": "Қошқарбаев",
+      "comments": "",
+      "tel": "+7777-777-77-77",
+      "id": 4
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 7140,
+      "totalProductPrice": 10200,
+      "totalContainerPrice": 0,
+      "items": [
+        {
+          "id": 5,
+          "name": "Сет ИФТАР",
+          "image": "https://shashlychok.kz/img/products/3fd25980deec42902bc631e4d464dbbe.png",
+          "text": "2 Люля-Кебаб\r\n2 Индейки\r\n2 Окорачки\r\n2 Салата\r\n2 Лепешки\r\n2 соуса\r\n1 Pepsi 1л\r\nВ подарок:\r\nA'SU 0,5л\r\nФиники",
+          "price": 10200,
+          "price_container": 0,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "Бакытгуль Болат",
+      "comments": "",
+      "tel": "+9790-870-98-70",
+      "id": 5
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 20250,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "0%",
+      "name": "Бакытгуль Болат",
+      "comments": "hjghjkbv",
+      "tel": "+7777-777-77-77",
+      "id": 6
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 5850,
+      "totalProductPrice": 5550,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 1,
+          "name": "Выгодное Люля-Кебаб Комбо",
+          "image": "https://shashlychok.kz/img/products/0a138577ff98925644802f7759323cb1.png",
+          "text": "3 Люля-Кебаб\r\n2 Соуса\r\n2 Лаваша\r\n1 Салат \r\n1л Pepsi",
+          "price": 5550,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "0%",
+      "name": "budget",
+      "comments": "",
+      "tel": "+7777-777-77-77",
+      "id": 7
+    },
+    {
+      "orderType": "Самовывоз",
+      "totalCount": 1,
+      "totalPrice": 14175,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "budget",
+      "comments": "",
+      "tel": "+7777-777-77-77",
+      "id": 8
+    },
+    {
+      "orderType": "Доставка",
+      "totalCount": 1,
+      "totalPrice": 20250,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "0%",
+      "name": "budget",
+      "address": "Қошқарбаев",
+      "comments": "qwdqwd",
+      "tel": "+7777-777-77-77",
+      "id": 9
+    },
+    {
+      "orderType": "Доставка",
+      "totalCount": 1,
+      "totalPrice": 14175,
+      "totalProductPrice": 19950,
+      "totalContainerPrice": 300,
+      "items": [
+        {
+          "id": 2,
+          "name": "Лучшие Друзья",
+          "image": "https://shashlychok.kz/img/products/d38cad65e6a6625e9571d4a2515cb24c.png",
+          "text": "Баранина 2\r\nИндейка 2\r\nГовядина 2\r\nОкорочка 2\r\nЛюля-кебаб 2\r\nСоус 4\r\nЛепешка 2\r\nЛаваш 3\r\nКартошка фри 3\r\nСалат  2\r\nХалапеньо 2\r\nPepsi 1л 2",
+          "price": 19950,
+          "price_container": 300,
+          "count": 1
+        }
+      ],
+      "promoDiscount": "30%",
+      "name": "budget",
+      "address": "Қошқарбаев",
+      "comments": "",
+      "tel": "+7777-777-77-77",
+      "id": 10
+    }
+  ],
+  "promo": [
+    {
+      "id": 1,
+      "name": "2023",
+      "discount": 30
     }
   ],
   "comments": [

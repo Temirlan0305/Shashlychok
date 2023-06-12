@@ -1,7 +1,6 @@
 export interface IFormInputs {
    name: string,
    comments: string,
-   tel: any,
+   tel: string,
    promo: string,
-   address: string,
 }
